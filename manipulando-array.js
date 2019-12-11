@@ -24,6 +24,6 @@ while(contador < primeiro.length) {
     contador++
 }
 
-for(let i = 0; i < segundo.length; i++ ) {
-    console.log(segundo[i])
-}
+console.log(segundo)
+
+// a saída será: [ 'jackson', 'joaquim', 'cunha', 'mars', 'jupiter' ] 
