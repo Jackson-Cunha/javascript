@@ -1,4 +1,4 @@
-//valor inicial se o array estiver vazio.
+//valor inicial do index se o array estiver vazio.
 var index = -1
 
 array=[]
@@ -8,7 +8,7 @@ function add(d) {
     array[++index] = d
 }
 
-//função que remove elementos a fila.
+//função que remove elementos da fila.
 function remove() {
     array[0] = null
     index--
