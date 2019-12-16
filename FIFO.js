@@ -14,7 +14,7 @@ function remove() {
     index--
 }
 
-//função para organizar os elemantos na fila ou seja fazer a fila andar.
+//função para organizar os elementos na fila ou seja fazer a fila andar.
 function adjustIndex() {
     let cont = 0
     for(i=1; i<= array.length; i++) {
