@@ -38,4 +38,4 @@ add(8)
 //imprimindo os resultados.
 console.log(array)
 
-// a saida será: [ 3, 44, 8, null ]
+// a saida será: [ 2, 8, null ]
