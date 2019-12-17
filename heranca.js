@@ -7,8 +7,20 @@ class Animal {
         this.idade = _idade        
     }
 
-    showAnimal() {
-        return "Nome: "+this.nome +" Idade: "+ this.idade
+    get gNome() {
+        return this.nome
+    }
+
+    set sNome(n) {
+        this.nome = n
+    }
+
+    get gIdade() {
+        return this.idade
+    }
+
+    set sIdade(i) {
+        this.idade = i
     }
 }
 
@@ -19,6 +31,11 @@ class Gato extends Animal {
     }
 }
 
-gato = new Gato('Kitana', 11)
+gato = new Gato()
 
-console.log(gato.showAnimal())
+gato.sNome = 'Puka'
+gato.sIdade = 3
+
+console.log('Nome: '+gato.gNome+' Idade: '+gato.gIdade)
+
+//saída: Nome: Puka Idade: 3
