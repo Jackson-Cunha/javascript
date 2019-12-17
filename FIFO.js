@@ -10,8 +10,11 @@ function add(d) {
 
 //função que remove elementos da fila.
 function remove() {
-    array[0] = null
-    index--
+    if(index > -1) {
+        array[0] = null
+        index--
+        adjustIndex()
+    }
 }
 
 //função para organizar os elementos na fila ou seja fazer a fila andar.
@@ -25,14 +28,11 @@ function adjustIndex() {
 }
 
 //chamadas das funções.
-add(1)
-add(25)
-add(3)
-add(44)
+add(24)
+add(21)
+add(2)
 remove()
-adjustIndex()
 remove()
-adjustIndex()
 add(8)
 
 //imprimindo os resultados.
