@@ -20,7 +20,7 @@ function remove() {
 //função para organizar os elementos na fila ou seja fazer a fila andar.
 function adjustIndex() {
     let cont = 0
-    for(i=1; i<= array.length; i++) {
+    for(let i=1; i<= array.length; i++) {
         array[cont] = array[i]
         cont++
     }
@@ -34,6 +34,10 @@ add(2)
 remove()
 remove()
 add(8)
+add(3)
+add(10)
+remove()
+
 
 //imprimindo os resultados.
 console.log(array)
