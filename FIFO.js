@@ -42,4 +42,4 @@ remove()
 //imprimindo os resultados.
 console.log(array)
 
-// a saida será: [ 2, 8, null ]
+// a saida será: [ 8, 3, 10, null ]
